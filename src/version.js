@@ -29,7 +29,7 @@ angular.module('adf.widget.version', ['adf.provider'])
     dashboardProvider
       .widget('version', {
         title: 'Version',
-        description: 'Displays the angular-dashboard-framework',
+        description: 'Displays the used version of angular-dashboard-framework',
         template: 'angular-dashboard-framework: {{version}}',
         controller: function($scope, adfVersion){
           var version = adfVersion;
